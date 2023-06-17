@@ -77,8 +77,45 @@ footer {                                  /* */
   background-color: #aaa;                 /* 背景色指定*/
 }
 
+/* タブレット縦置きサイズ (768px) 以下の際に適用される設定 */
+@media screen and (max-width:768px) {
+ header {
+  width: 100%;       /* 横幅100% */
+ }
+}
+nav {
+  margin-bottom: 50px;
+}
 
+main {
+  width: 100%;          /* ok 100% */
+  
+  display: block;       /* 指定されたhtmlタグをインラインブロック要素に変更*/
+}
 
+.step-box {
+  width:90%;            /* ok 90% */
+  margin-left: 5%;      /* 外側余白,左5%,中90%,右5%*/
+  margin-bottom: 20px;
+  
+}
 
+.step-img1 {
+  height: 150px;               /* 高さ150px */
+  background-position: center; /* 背景画像を中央に配置 */
+}
 
+.step-img2 {
+  height: 150px;               /* 高さ150px */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.step-img3 {
+  height: 150px;               /* 高さ150px */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+footer {
+  margin-top: 50px;            /* */
+}
 
